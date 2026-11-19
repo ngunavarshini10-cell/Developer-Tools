@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Responsive background image</title>
+    <style>
+        body{
+            margin:0;
+            height:100vh;
+            background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBxbVSx0YbKyBuZ3JRWbQtL0SOrpVrBJKYUOEzmVl3GA&s=10");
+            background-size:cover;
+            background-position:center;
+           }
+           /*for tablets*/
+        @media(max-width:768px){
+            body{
+                background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8uaPdTAD7UtXiFXZ25RnubNbl_AFSbS92oONds1tQMg&s=10");
+            }
+        }
+        /*for mobile phones*/
+        @media(max-width:480px){
+            body{
+                background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7G_vHn8Nw2FTSC_v_yqcXbx11QLjbtbqeyGPfess_2A&s=10");
+            }
+        }
+        </style>
+        </head>
+        <body>
+            <h1>Responsive background image</h1>
+        </body>
+        </html>

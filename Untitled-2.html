@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Gradients</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-color: white;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        .box {
+            width: 400px;
+            height: 150px;
+            margin: 30px auto;
+            border-radius: 10px;
+            color: white;
+            font-size: 22px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .box1 {
+            background: linear-gradient(to right, red, yellow, green);
+        }
+
+    
+        .box2 {
+            background: repeating-linear-gradient(
+                45deg,
+                blue,
+                blue 10px,
+                white 10px,
+                white 20px
+            );
+            color: black;
+        }
+
+    
+        .box3 {
+            background: linear-gradient(to bottom, purple, pink);
+        }
+
+    
+        .box4 {
+            background: repeating-linear-gradient(
+                90deg,
+                orange,
+                orange 15px,
+                yellow 15px,
+                yellow 30px
+            );
+            color: black;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Gradient Effects</h1>
+
+    <div class="box box1">
+        Linear Gradient
+    </div>
+
+    <div class="box box2">
+        Repeating Linear Gradient
+    </div>
+
+    <div class="box box3">
+        Linear Gradient
+    </div>
+
+    <div class="box box4">
+        Repeating Linear Gradient
+    </div>
+
+</body>
+</html>

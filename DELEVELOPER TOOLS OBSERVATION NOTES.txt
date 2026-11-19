@@ -1,0 +1,22 @@
+DELEVELOPER TOOLS OBSERVATION NOTES:-
+
+CMD:-
+cmd is a command line interface in windows used to communicate with the computer by typing commands.it allows used to create, open, copy, delete and manage
+files and folders.
+DIR:-
+dir displays the list of files and folders available in the current directly.
+CD:-
+CD MEANS CHANge directly it is used to move one folder to another.
+CD..:-
+go BAck to one folder.
+MKdir:-
+mkdir means make a directly it is used to create a new folder.
+File creation in a folder:-
+you can create a text file using the type command.
+syntax:-type null>filename.txt.
+RMDIR:-
+rmdir means remove directly.it is used to delete an empty folder.
+copy:-
+it is used to copy a file from one location to another.
+DELL:-
+dell means delete.it is used to delete a file'

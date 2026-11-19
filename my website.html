@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple Website</title>
+<style>
+        body {
+            background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20240919/pngtree-a-background-of-orange-blue-and-yellow-gradients-with-gritty-appearance-image_16233934.jpg");
+            background-repeat:non-repeat;
+            background-size:cover;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color:white;
+        }
+        nav {
+            background-color:gray;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav h2 {
+            color: white;
+            margin: 5px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+        section {
+            padding: 10px;
+            min-height: 400px;
+            text-align: center;
+        }
+        #home {
+            background-color: lightblue;
+        }
+
+       h1 {
+            font-size: 40px;
+        }
+        .form-box {
+            background-color: white;
+            width: 400px;
+            margin: auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+            text-align: left;
+        }
+        .form-box h1 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: green;
+        }
+        #about,
+        #contact {
+            background-color: white;
+        }
+
+     p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h2>My Website</h2>
+
+        <a href="#home">Home</a>
+        <a href="#signin">Sign In</a>
+        <a href="#signup">Sign Up</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+
+    <h1>Welcome to online learning</h1>
+        <p> it is helpful for learning courses</p>
+        <img src="https://professionalprograms.pearson.com/content/dam/one-dot-com/one-dot-com/professional-programs/blogs/what-is-online-study-blog.png" height="500" width="500";
+
+    </section>
+
+    <section id="signin">
+
+        <div class="form-box">
+
+            <h1>Sign In</h1>
+
+            <form>
+
+                <label>Username</label>
+                <input type="text"
+                       placeholder="Enter your username">
+
+                <label>Password</label>
+                <input type="password"
+                       placeholder="Enter your password">
+
+                <button type="submit">
+                    Sign In
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+    <section id="signup">
+
+        <div class="form-box">
+
+            <h1>Sign Up</h1>
+
+            <form>
+                <label>First Name</label>
+                <input type="text"
+                       placeholder="Enter first name">
+                <label>Last Name</label>
+                <input type="text"
+                       placeholder="Enter last name">
+                <label>Username</label>
+                <input type="text"
+                       placeholder="Enter username">
+                <label>Password</label>
+                <input type="password"
+                       placeholder="Enter password">
+                <label>Confirm Password</label>
+                <input type="password"
+                       placeholder="Confirm password">
+                <label>Email</label>
+                <input type="email"
+                       placeholder="Enter email">
+                <label>Phone Number</label>
+                <input type="tel"
+                       placeholder="Enter phone number">
+                <label>Date of Birth</label>
+                <input type="date">
+                <label>Gender</label>
+                <select>
+                    <option>Select Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+                <label>Address</label>
+                <textarea
+                    placeholder="Enter your address">
+                </textarea>
+                <label>City</label>
+                <input type="text"
+                       placeholder="Enter city">
+                <label>State</label>
+                <input type="text"
+                       placeholder="Enter state">
+                <label>Country</label>
+                <input type="text"
+                       placeholder="Enter country">
+                <label>Pincode</label>
+                <input type="text"
+                       placeholder="Enter pincode">
+
+                <button type="submit">
+                    Create Account
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <section id="about">
+
+     <h1>About Us</h1>
+         <p> Welcome to My Website.</p>
+         <p>To provide students with an easy, accessible, and user-friendly place to learn online. It can offer courses, study materials, quizzes, assignments, and other educational resources. </p>
+         <p>The website contains a Home page, Sign In form,
+            Sign Up form, About Us section and Contact section.</p>
+         <p>The purpose of this website is to learn the  Encourage students to continue learning and achieve their goals.</p>
+
+    </section>
+
+    <section id="contact">
+        <h1>Contact Us</h1>
+           <p> <b>Name:</b>online learning </p>
+          <p> <b>Email:</b> learning@gmail.com </p>
+          <p><b>Phone:</b> +91 98765 43210 </p>
+          <p> <b>Address:</b> Andhra Pradesh, India </p>
+         <p> You can contact us using the above information.</p>
+
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Neon Restaurant</title>
+    <style>
+        /* Basic settings */
+
+body {
+    background-color: #080808;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+header {
+    background-color: #111111;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: #ff00ff;
+}
+.home {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.home h2 {
+    color: #ff00ff;
+    font-size: 40px;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+.home p {
+    font-size: 20px;
+}
+.button {
+    display: inline-block;
+    background-color: #00ffff;
+    color: black;
+    padding: 12px 25px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: #ff00ff;
+    color: white;
+}
+
+.menu {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.menu h2,
+.about h2,
+.contact h2 {
+    color: #00ffff;
+    text-shadow: 0 0 10px #00fff
+}
+.food {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background-color: #181818;
+    width: 200px;
+    padding: 25px;
+    border: 2px solid #ff00ff;
+    border-radius: 15px;
+}
+
+.card h3 {
+    color: #ff00ff;
+}
+
+.card h4 {
+    color: #00ffff;
+    font-size: 20px;
+}
+button {
+    background-color: #ff00ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #00ffff;
+    color: black;
+}
+
+.about {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #111111;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+
+/* Contact */
+
+.contact {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #050505;
+    text-align: center;
+    padding: 20px;
+    color: gray;
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Neon Restaurant</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Home -->
+    <div id="home" class="home">
+
+        <h2>Welcome to Neon Restaurant</h2>
+
+        <p>
+            Delicious food with amazing taste!
+        </p>
+
+        <a href="#menu" class="button">View Menu</a>
+
+    </div>
+
+
+    <!-- Menu -->
+    <div id="menu" class="menu">
+
+        <h2>Our Menu</h2>
+
+        <div class="food">
+
+            <div class="card">
+                <h3>🍕 Pizza</h3>
+                <p>Cheesy and delicious pizza.</p>
+                <h4>₹200</h4>
+                <button>Order</button>
+            </div>
+
+            <div class="card">
+                <h3>🍔 Burger</h3>
+                <p>Fresh and tasty burger.</p>
+                <h4>₹150</h4>
+                <button>Order</button>
+            </div>
+
+            <div class="card">
+                <h3>🍝 Pasta</h3>
+                <p>Hot and creamy pasta.</p>
+                <h4>₹180</h4>
+                <button>Order</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- About -->
+    <div id="about" class="about">
+
+        <h2>About Us</h2>
+
+        <p>
+            We are a friendly restaurant serving fresh,
+            tasty and affordable food.
+        </p>
+
+    </div>
+
+
+    <!-- Contact -->
+    <div id="contact" class="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>📍 Vijayawada, Andhra Pradesh</p>
+        <p>📞 98765 43210</p>
+        <p>📧 neonrestaurant@gmail.com</p>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Neon Restaurant</p>
+    </footer>
+
+</body>
+
+</html>
